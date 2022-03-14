@@ -9,14 +9,14 @@ This is the basic project setup of the Math Magician App
 # Other tools
 - Babel compiler
 # Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with CRA. Click this link to get started [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 ## installation
-This project has a lot of dependencies. In order to run on your machine very well, you need to install them by typing the following commands in your terminal
+In order to run on your local machine, type in;
 
-`npm install`
-## Available Scripts
-In the project directory, you can run:
-### `npm start`
+`npx create-react-app my-app`
+`cd my-app`
+`npm start`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
