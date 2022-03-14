@@ -13,9 +13,9 @@ This project was bootstrapped with CRA. Click this link to get started [Create R
 ## installation
 In order to run on your local machine, type in;
 
-`npx create-react-app my-app`
-`cd my-app`
-`npm start`
+- `npx create-react-app my-app`
+- `cd my-app`
+- `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
