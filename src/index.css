@@ -8,3 +8,29 @@ input {
   background-color: #858694;
   border: none;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgb(241, 239, 239);
+  width: 400px;
+  background-color: #fff;
+  padding: 1px;
+}
+
+.keypad {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  height: 30vh;
+  background-color: rgb(235, 233, 233);
+}
