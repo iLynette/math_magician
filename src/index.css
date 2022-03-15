@@ -1,3 +1,10 @@
 * {
   margin: 0;
 }
+
+input {
+  width: 399px;
+  height: 40px;
+  background-color: #858694;
+  border: none;
+}
