@@ -11,25 +11,25 @@ class Calculator extends React.Component {
             <input type="text" />
           </form>
           <div className="keypad">
-            <div className="clear num">AC</div>
-            <div className="ad num">+/-</div>
-            <div className="modulo num">%</div>
-            <div className="divide operator">&divide;</div>
-            <div className="num">7</div>
-            <div className="num">8</div>
-            <div className="num">9</div>
-            <div className="times operator">&times;</div>
-            <div className="num">4</div>
-            <div className="num">5</div>
-            <div className="num">6</div>
-            <div className="clear operator">&ndash;</div>
-            <div className="num">1</div>
-            <div className="num">2</div>
-            <div className="num">3</div>
-            <div className="add operator">+</div>
-            <div className="zero">0</div>
-            <div className="num">.</div>
-            <div className="equals operator">=</div>
+            <button type="submit" className="clear num">AC</button>
+            <button type="submit" className="ad num">+/-</button>
+            <button type="submit" className="modulo num">%</button>
+            <button type="submit" className="divide operator">&divide;</button>
+            <button type="submit" className="num">7</button>
+            <button type="submit" className="num">8</button>
+            <button type="submit" className="num">9</button>
+            <button type="submit" className="times operator">&times;</button>
+            <button type="submit" className="num">4</button>
+            <button type="submit" className="num">5</button>
+            <button type="submit" className="num">6</button>
+            <button type="submit" className="clear operator">&ndash;</button>
+            <button type="submit" className="num">1</button>
+            <button type="submit" className="num">2</button>
+            <button type="submit" className="num">3</button>
+            <button type="submit" className="add operator">+</button>
+            <button type="submit" className="zero">0</button>
+            <button type="submit" className="num">.</button>
+            <button type="submit" className="equals operator">=</button>
           </div>
         </div>
       </>
