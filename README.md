@@ -2,6 +2,8 @@
 # Math magicians app
 This is the basic project setup of the Math Magician App
 
+![screenshot](./calculator.png)
+
 # Built with
 - React.js
 - HTML
