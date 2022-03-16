@@ -4,6 +4,15 @@ import React from 'react';
 // import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: 0,
+      next: '',
+      operation: '',
+    }
+  }
+
   render() {
     return (
       <>
