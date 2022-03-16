@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 
 import React from 'react';
-// import calculate from './logic/calculate';
+import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -10,7 +10,8 @@ class Calculator extends React.Component {
       total: 0,
       next: '',
       operation: '',
-    }
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   render() {
