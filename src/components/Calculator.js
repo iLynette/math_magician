@@ -1,4 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/destructuring-assignment */
 
 import React from 'react';
 import calculate from './logic/calculate';
@@ -14,31 +15,41 @@ class Calculator extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+  handleClick(e) {
+    const buttons = e.target.id;
+    const { total, next, operation } = calculate(this.state, buttons);
+    if (next === null && total === null) {
+      this.setState({ next, total: 0, operation });
+    } else {
+      this.setState({ next, total, operation });
+    }
+  }
+
   render() {
     return (
       <>
         <div className="container">
           <div className="input_field">0</div>
           <div className="keypad">
-            <button type="submit" className="clear num">AC</button>
-            <button type="submit" className="ad num">+/-</button>
-            <button type="submit" className="modulo num">%</button>
-            <button type="submit" className="divide operator">&divide;</button>
-            <button type="submit" className="num">7</button>
-            <button type="submit" className="num">8</button>
-            <button type="submit" className="num">9</button>
-            <button type="submit" className="times operator">&times;</button>
-            <button type="submit" className="num">4</button>
-            <button type="submit" className="num">5</button>
-            <button type="submit" className="num">6</button>
-            <button type="submit" className="clear operator">&ndash;</button>
-            <button type="submit" className="num">1</button>
-            <button type="submit" className="num">2</button>
-            <button type="submit" className="num">3</button>
-            <button type="submit" className="add operator">+</button>
-            <button type="submit" className="zero">0</button>
-            <button type="submit" className="num">.</button>
-            <button type="submit" className="equals operator">=</button>
+            <button onClick={this.handleClick} type="submit" className="clear num">AC</button>
+            <button onClick={this.handleClick} type="submit" className="ad num">+/-</button>
+            <button onClick={this.handleClick} type="submit" className="modulo num">%</button>
+            <button onClick={this.handleClick} type="submit" className="divide operator">&divide;</button>
+            <button onClick={this.handleClick} type="submit" className="num">7</button>
+            <button onClick={this.handleClick} type="submit" className="num">8</button>
+            <button onClick={this.handleClick} type="submit" className="num">9</button>
+            <button onClick={this.handleClick} type="submit" className="times operator">&times;</button>
+            <button onClick={this.handleClick} type="submit" className="num">4</button>
+            <button onClick={this.handleClick} type="submit" className="num">5</button>
+            <button onClick={this.handleClick} type="submit" className="num">6</button>
+            <button onClick={this.handleClick} type="submit" className="minus operator">&ndash;</button>
+            <button onClick={this.handleClick} type="submit" className="num">1</button>
+            <button onClick={this.handleClick} type="submit" className="num">2</button>
+            <button onClick={this.handleClick} type="submit" className="num">3</button>
+            <button onClick={this.handleClick} type="submit" className="add operator">+</button>
+            <button onClick={this.handleClick} type="submit" className="zero">0</button>
+            <button onClick={this.handleClick} type="submit" className="num">.</button>
+            <button onClick={this.handleClick} type="submit" className="equals operator">=</button>
           </div>
         </div>
       </>
