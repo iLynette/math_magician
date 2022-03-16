@@ -1,17 +1,14 @@
 /* eslint-disable react/prefer-stateless-function */
 
 import React from 'react';
-import calculate from './logic/calculate';
-import operate from './logic/operate';
+// import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
   render() {
     return (
       <>
         <div className="container">
-          <form>
-            <input type="text" />
-          </form>
+          <div className="input_field">0</div>
           <div className="keypad">
             <button type="submit" className="clear num">AC</button>
             <button type="submit" className="ad num">+/-</button>

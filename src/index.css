@@ -2,11 +2,13 @@
   margin: 0;
 }
 
-input {
-  width: 399px;
-  height: 50px;
+.input_field {
+  width: 400px;
   background-color: #858694;
   border: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0 15px 0;
 }
 
 .container {
