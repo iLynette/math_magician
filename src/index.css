@@ -10,6 +10,7 @@
   justify-content: flex-end;
   padding: 15px 0 15px 0;
   color: #fff;
+  font-size: 26px;
 }
 
 .container {
@@ -60,5 +61,5 @@
 .keypad button:hover {
   opacity: 0.7;
   color: #000;
-  font-size: 27px;
+  font-size: 26px;
 }
