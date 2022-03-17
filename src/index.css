@@ -9,6 +9,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 15px 0 15px 0;
+  color: #fff;
 }
 
 .container {
@@ -35,6 +36,10 @@
   height: 30vh;
 }
 
+.keypad button {
+  font-size: 25px;
+}
+
 .operator {
   background-color: rgb(223, 152, 20);
   padding: 15px;
@@ -50,4 +55,10 @@
   grid-column-end: 3;
   padding-top: 15px;
   background-color: #fff;
+}
+
+.keypad button:hover {
+  opacity: 0.7;
+  color: #000;
+  font-size: 27px;
 }
