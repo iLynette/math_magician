@@ -1,5 +1,46 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header {
+  color: #000;
+  font-size: 2em;
+  text-decoration: dotted;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 20%;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.homeLink {
+  color: blue;
+}
+
+.calculatorLink {
+  color: blue;
+}
+
+.quotesLink {
+  color: blue;
 }
 
 .input_field {
