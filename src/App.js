@@ -1,5 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 
+import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
@@ -11,9 +12,11 @@ class App extends React.Component {
     return (
       <div className="Calculator">
         <Nav />
-        <Home />
-        <Calculator />
-        <Quotes />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quotes" element={<Quotes />} />
+        </Routes>
       </div>
     );
   }
