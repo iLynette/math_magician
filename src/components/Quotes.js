@@ -2,7 +2,7 @@ import React from 'react';
 
 const Quotes = () => (
   <>
-    <div>
+    <div className="quotes">
       <p>
         1. “All our dreams can come true if we have the courage to pursue them.” _Walt Disney
       </p>
