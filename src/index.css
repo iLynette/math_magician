@@ -34,15 +34,15 @@
 }
 
 .homeLink {
-  color: blue;
+  color: #000;
 }
 
 .calculatorLink {
-  color: blue;
+  color: #000;
 }
 
 .quotesLink {
-  color: blue;
+  color: #000;
 }
 
 .welcome {
@@ -113,7 +113,7 @@
 
 .left {
   top: 30%;
-  left: 10%;
+  left: 25%;
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 30px;
