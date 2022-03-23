@@ -8,7 +8,8 @@ const Quotes = () => (
         <span>Walt Disney</span>
       </p>
       <p className="qtext">
-        2. “If you hear a voice within you say ‘you cannot paint,’ then by all means paint and that voice will be silenced.”
+        2. “If you hear a voice within you say
+        ‘you cannot paint,’ then by all means paint and that voice will be silenced.”
         <span>Vincent Van Gogh</span>
       </p>
       <p className="qtext">
