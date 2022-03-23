@@ -1,9 +1,7 @@
-/* eslint-disable react/prefer-stateless-function */
-
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default class Nav extends Component {
+export default class Nav extends React.PureComponent {
   render() {
     return (
       <nav className="navBar">

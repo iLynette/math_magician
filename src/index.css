@@ -9,6 +9,8 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
+  box-shadow: 1px 5px 10px #858694;
+  padding: 15px;
 }
 
 .header {
@@ -41,6 +43,26 @@
 
 .quotesLink {
   color: blue;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5px auto;
+  padding-top: 20px;
+}
+
+.welcome h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text {
+  padding: 20px;
+  font-size: 18px;
 }
 
 .input_field {
