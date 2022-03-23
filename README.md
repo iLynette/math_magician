@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Math magicians app
-This is the basic project setup of the Math Magician App
+This is a single page application that includes three pages; Home, Calculator and Quotes. You can do Math Calculations and read quotes.
 
-![screenshot](./calculator.png)
+![screenshot](./one.png)
+![screenshot](./two.png)
+![screenshot](./three.png)
 
 # Built with
 - React.js
