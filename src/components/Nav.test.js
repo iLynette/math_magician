@@ -6,9 +6,9 @@ import Nav from './Nav';
 it('renders correctly', () => {
   const nav = renderer
     .create(
-    <Router>
-     <Nav />
-    </Router>,
+      <Router>
+        <Nav />
+      </Router>,
     )
     .toJSON();
   expect(nav).toMatchSnapshot();
