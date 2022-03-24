@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="navBar"
+>
+  <a
+    aria-current="page"
+    className="header active"
+    href="/"
+    onClick={[Function]}
+  >
+    <h3
+      className="title"
+    >
+      Math Magicians
+    </h3>
+  </a>
+  <div
+    className="navItems"
+  >
+    <ul
+      className="navMenu"
+    >
+      <li>
+        <a
+          aria-current="page"
+          className="homeLink active"
+          href="/"
+          onClick={[Function]}
+        >
+          Home 
+        </a>
+      </li>
+      <li>
+        <a
+          className="calculatorLink"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          className="quotesLink"
+          href="/quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
