@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="left"
+  >
+    <h2>
+      Lets do some Math
+    </h2>
+  </div>,
+  <div
+    className="container"
+  >
+    <div
+      className="input_field"
+    >
+      0
+      
+      
+    </div>
+    <div
+      className="keypad"
+    >
+      <button
+        className="clear num"
+        onClick={[Function]}
+        type="submit"
+      >
+        AC
+      </button>
+      <button
+        className="ad num"
+        onClick={[Function]}
+        type="submit"
+      >
+        +/-
+      </button>
+      <button
+        className="modulo num"
+        onClick={[Function]}
+        type="submit"
+      >
+        %
+      </button>
+      <button
+        className="divide operator"
+        onClick={[Function]}
+        type="submit"
+      >
+        ÷
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        7
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        8
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        9
+      </button>
+      <button
+        className="times operator"
+        onClick={[Function]}
+        type="submit"
+      >
+        x
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        4
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        5
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        6
+      </button>
+      <button
+        className="minus operator"
+        onClick={[Function]}
+        type="submit"
+      >
+        -
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        1
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        2
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        3
+      </button>
+      <button
+        className="add operator"
+        onClick={[Function]}
+        type="submit"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="submit"
+      >
+        0
+      </button>
+      <button
+        className="num"
+        onClick={[Function]}
+        type="submit"
+      >
+        .
+      </button>
+      <button
+        className="equals operator"
+        onClick={[Function]}
+        type="submit"
+      >
+        =
+      </button>
+    </div>
+  </div>,
+]
+`;

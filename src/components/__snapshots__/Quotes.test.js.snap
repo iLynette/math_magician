@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="qtext"
+        >
+          1. “All our dreams can come true if we have the courage to pursue them.”
+          <span>
+            Walt Disney
+          </span>
+        </p>,
+        <p
+          className="qtext"
+        >
+          2. “If you hear a voice within you say ‘you cannot paint,’ then by all means paint and that voice will be silenced.”
+          <span>
+            Vincent Van Gogh
+          </span>
+        </p>,
+        <p
+          className="qtext"
+        >
+          3. “It does not matter how slowly you go, so long as you do not stop.”
+          <span>
+            Confucius
+          </span>
+        </p>,
+      ],
+      "className": "quotes",
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "1. “All our dreams can come true if we have the courage to pursue them.”",
+            <span>
+              Walt Disney
+            </span>,
+          ],
+          "className": "qtext",
+        },
+        "rendered": Array [
+          "1. “All our dreams can come true if we have the courage to pursue them.”",
+          Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Walt Disney",
+            },
+            "rendered": Array [
+              "Walt Disney",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2. “If you hear a voice within you say ‘you cannot paint,’ then by all means paint and that voice will be silenced.”",
+            <span>
+              Vincent Van Gogh
+            </span>,
+          ],
+          "className": "qtext",
+        },
+        "rendered": Array [
+          "2. “If you hear a voice within you say ‘you cannot paint,’ then by all means paint and that voice will be silenced.”",
+          Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Vincent Van Gogh",
+            },
+            "rendered": Array [
+              "Vincent Van Gogh",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "3. “It does not matter how slowly you go, so long as you do not stop.”",
+            <span>
+              Confucius
+            </span>,
+          ],
+          "className": "qtext",
+        },
+        "rendered": Array [
+          "3. “It does not matter how slowly you go, so long as you do not stop.”",
+          Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Confucius",
+            },
+            "rendered": Array [
+              "Confucius",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
