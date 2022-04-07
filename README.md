@@ -2,9 +2,8 @@
 # Math magicians app
 This is a single page application that includes three pages; Home, Calculator and Quotes. You can do Math Calculations and read quotes.
 
-![screenshot](./one.png)
-![screenshot](./two.png)
-![screenshot](./three.png)
+![screenshot](./pic1.png)
+![screenshot](./pic2.png)
 
 # Built with
 - React.js
