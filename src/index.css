@@ -85,7 +85,7 @@ body {
 
 .input_field {
   width: 400px;
-  background-color: #858694;
+  background-color: #160040;
   border: none;
   display: flex;
   justify-content: flex-end;
@@ -111,12 +111,24 @@ body {
   padding: 1px;
 }
 
+button.clear.num {
+  background-color: #9a0680;
+}
+
+button.ad.num {
+  background-color: #9a0680;
+}
+
+button.modulo.num {
+  background-color: #9a0680;
+}
+
 .left {
   top: 30%;
   left: 25%;
   position: absolute;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 25px;
   text-transform: capitalize;
 }
 
@@ -132,8 +144,8 @@ body {
 }
 
 .operator {
-  background-color: rgb(223, 152, 20);
   padding: 15px;
+  background-color: #9a0680;
 }
 
 .num {
@@ -149,7 +161,7 @@ body {
 }
 
 .keypad button:hover {
-  opacity: 0.7;
+  opacity: 0.9;
   color: #000;
   font-size: 26px;
 }
