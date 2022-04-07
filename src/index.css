@@ -174,8 +174,9 @@
     font-size: 17px;
   }
 
-  /* stylelint-disable-next-line selector-list-comma-newline-after */
-  .homeLink, .calculatorLink, .quotesLink {
+  .homeLink,
+  .calculatorLink,
+  .quotesLink {
     color: #fff;
   }
 }
