@@ -225,4 +225,10 @@ body {
     padding: 15px;
     color: #fff;
   }
+
+  .clear,
+  .ad,
+  .modulo {
+    background-color: #9a0680;
+  }
 }
