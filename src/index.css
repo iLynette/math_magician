@@ -153,3 +153,29 @@
   color: #000;
   font-size: 26px;
 }
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 1px 5px 10px #79018c;
+    padding: 15px;
+    background-color: #9a0680;
+  }
+
+  .title {
+    font-size: 28px;
+    color: #fff;
+  }
+
+  .navMenu li {
+    font-size: 17px;
+  }
+
+  /* stylelint-disable-next-line selector-list-comma-newline-after */
+  .homeLink, .calculatorLink, .quotesLink {
+    color: #fff;
+  }
+}
