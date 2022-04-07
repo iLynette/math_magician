@@ -86,7 +86,6 @@ body {
 .input_field {
   width: 400px;
   background-color: #160040;
-  border: none;
   display: flex;
   justify-content: flex-end;
   padding: 15px 0 15px 0;
@@ -175,10 +174,11 @@ button.modulo.num {
     box-shadow: 1px 5px 10px #160040;
     padding: 15px;
     background-color: #9a0680;
+    gap: 30px;
   }
 
   .title {
-    font-size: 28px;
+    font-size: 20px;
     color: #fff;
   }
 
@@ -193,8 +193,7 @@ button.modulo.num {
   }
 
   .left h2 {
-    font-size: 30px;
-    text-transform: capitalize;
+    display: none;
   }
 
   .keypad {
@@ -215,23 +214,6 @@ button.modulo.num {
     font-size: 26px;
   }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 30%;
-    left: 70%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid rgb(241, 239, 239);
-    width: 350px;
-    background-color: #fff;
-    padding: 1px;
-  }
-
   .operator {
     background-color: #9a0680;
     padding: 15px;
@@ -242,5 +224,14 @@ button.modulo.num {
   .ad,
   .modulo {
     background-color: #9a0680;
+  }
+
+  .container {
+    display: flex;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 350px;
   }
 }
