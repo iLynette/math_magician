@@ -4,19 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #79018c;
+  color: #fff;
+}
+
 .navBar {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  box-shadow: 1px 5px 10px #858694;
+  box-shadow: 1px 5px 10px #160040;
   padding: 15px;
+  background-color: #9a0680;
 }
 
 .header {
-  color: #000;
   font-size: 2em;
   text-decoration: dotted;
+  color: #fff;
 }
 
 .navItems {
@@ -33,16 +39,10 @@
   list-style-type: none;
 }
 
-.homeLink {
-  color: #000;
-}
-
-.calculatorLink {
-  color: #000;
-}
-
+.homeLink,
+.calculatorLink,
 .quotesLink {
-  color: #000;
+  color: #fff;
 }
 
 .welcome {
@@ -160,7 +160,7 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    box-shadow: 1px 5px 10px #79018c;
+    box-shadow: 1px 5px 10px #160040;
     padding: 15px;
     background-color: #9a0680;
   }
@@ -177,6 +177,52 @@
   .homeLink,
   .calculatorLink,
   .quotesLink {
+    color: #fff;
+  }
+
+  .left h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 350px;
+    height: 30vh;
+  }
+
+  .input_field {
+    width: 350px;
+    background-color: #160040;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(241, 239, 239);
+    width: 350px;
+    background-color: #fff;
+    padding: 1px;
+  }
+
+  .operator {
+    background-color: #9a0680;
+    padding: 15px;
     color: #fff;
   }
 }

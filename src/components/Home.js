@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => (
   <>
     <div className="welcome">
-      <h2>welcome to our page!</h2>
+      <h2 className="hello">welcome to our page!</h2>
       <p className="text">
         But I must explain to you how all this mistaken idea of praising pain.
         I will give you a complete account of the system, and expound teachings of the great
